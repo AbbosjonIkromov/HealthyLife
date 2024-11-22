@@ -1,1 +1,1 @@
-this is registration file
+this is registration file.txt

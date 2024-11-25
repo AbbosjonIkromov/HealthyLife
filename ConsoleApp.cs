@@ -1,6 +1,6 @@
 using System;
 
-namespace ConsoleApp
+namespace HealthyLife
 {
     public class Program
     {

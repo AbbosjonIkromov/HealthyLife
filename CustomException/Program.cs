@@ -21,6 +21,8 @@ namespace CustomException
                 Console.Clear();
 
                 ValidateUser(user);
+
+                Console.WriteLine("Welcome to the system...");
             }
             catch (InvalidUserCredentialsException ex)
             {
@@ -42,7 +44,6 @@ namespace CustomException
             if(user.UserName != userName || user.UserPassword != password)
                 throw new InvalidUserCredentialsException();
 
-            Console.WriteLine("Welcome to the system...");
         }
     }
 }
